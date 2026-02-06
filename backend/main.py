@@ -19,11 +19,11 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-with open("listings.json", "r") as f:
+with open("listings.json", "r", encoding="utf-8") as f:
     LISTINGS_DB = json.load(f)
     print(f"Loaded {len(LISTINGS_DB)} listings from the database.")
 
-with open("users.json", "r") as f:
+with open("users.json", "r", encoding="utf-8") as f:
     USERS_DB = json.load(f)
     print(f"Loaded {len(USERS_DB)} users from the database.")
 
