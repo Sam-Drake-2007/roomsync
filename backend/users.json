@@ -1,0 +1,212 @@
+[
+  {
+    "user_id": "u1",
+    "full_name": "Thomas",
+    "age": 20,
+    "program": "Software Engineering",
+    "monthly_budget": 900,
+    "preferred_location": "Sandy Hill",
+    "survey_responses": {
+      "What is your ideal Friday night?": "Hackathon addict. I basically live at the library or at my desk. Usually just coding with headphones on.",
+      "How do you handle cleanliness and shared spaces?": "I am very clean in common areas, but my room is a bit chaotic. I do my dishes immediately.",
+      "Do you have any pets, allergies, or dealbreakers?": "No pets. I need absolute silence in the mornings.",
+      "When are you looking to move in?": "September 1st"
+    }
+  },
+  {
+    "user_id": "u2",
+    "full_name": "Sarah",
+    "age": 22,
+    "program": "Nursing",
+    "monthly_budget": 1100,
+    "preferred_location": "Alta Vista",
+    "survey_responses": {
+      "What is your ideal Friday night?": "I usually work shift work, so often sleeping! When I'm off, I love cooking big dinners for friends.",
+      "How do you handle cleanliness and shared spaces?": "Sterile. I work in a hospital, so germs freak me out. Common areas must be spotless.",
+      "Do you have any pets, allergies, or dealbreakers?": "I have one cat. Allergic to smoke.",
+      "When are you looking to move in?": "May 1st"
+    }
+  },
+  {
+    "user_id": "u3",
+    "full_name": "Mike Ross",
+    "age": 19,
+    "program": "Business",
+    "monthly_budget": 800,
+    "preferred_location": "Sandy Hill",
+    "survey_responses": {
+      "What is your ideal Friday night?": "Hosting pre-games! I love having people over and watching sports. A quiet house depresses me.",
+      "How do you handle cleanliness and shared spaces?": "I'm chill. I might leave a pizza box out overnight but I'll get to it eventually.",
+      "Do you have any pets, allergies, or dealbreakers?": "No pets. I vape sometimes (balcony only).",
+      "When are you looking to move in?": "September 1st"
+    }
+  },
+  {
+    "user_id": "u4",
+    "full_name": "Emily",
+    "age": 24,
+    "program": "Law (JD)",
+    "monthly_budget": 1400,
+    "preferred_location": "Golden Triangle",
+    "survey_responses": {
+      "What is your ideal Friday night?": "Reading case law with a glass of wine. I study 12 hours a day, so silence is non-negotiable.",
+      "How do you handle cleanliness and shared spaces?": "Extremely organized. Everything has a label. Clutter stresses me out.",
+      "Do you have any pets, allergies, or dealbreakers?": "Severely allergic to dogs. Cannot live with partiers.",
+      "When are you looking to move in?": "August 1st"
+    }
+  },
+  {
+    "user_id": "u5",
+    "full_name": "David",
+    "age": 21,
+    "program": "Music",
+    "monthly_budget": 850,
+    "preferred_location": "Downtown",
+    "survey_responses": {
+      "What is your ideal Friday night?": "Jamming with friends or going to a local gig. I play cello daily.",
+      "How do you handle cleanliness and shared spaces?": "Average. I'm happy as long as there is no mold in the sink.",
+      "Do you have any pets, allergies, or dealbreakers?": "No allergies. I need roommates who don't mind instrument practice during the day.",
+      "When are you looking to move in?": "September 1st"
+    }
+  },
+  {
+    "user_id": "u6",
+    "full_name": "Priya",
+    "age": 20,
+    "program": "Biology",
+    "monthly_budget": 750,
+    "preferred_location": "Old Ottawa South",
+    "survey_responses": {
+      "What is your ideal Friday night?": "Doing yoga and watering my 20 plants. Maybe watching a documentary.",
+      "How do you handle cleanliness and shared spaces?": "I like a clean floor for yoga. I prefer a shoes-off household.",
+      "Do you have any pets, allergies, or dealbreakers?": "Vegetarian household preferred. The smell of cooking meat bothers me.",
+      "When are you looking to move in?": "Immediate"
+    }
+  },
+  {
+    "user_id": "u7",
+    "full_name": "Kevin",
+    "age": 23,
+    "program": "Civil Engineering",
+    "monthly_budget": 950,
+    "preferred_location": "Lees",
+    "survey_responses": {
+      "What is your ideal Friday night?": "Gym, then meal prep for the week, then sleep early. I'm very routine-oriented.",
+      "How do you handle cleanliness and shared spaces?": "I clean up after myself immediately. I expect others to do the same.",
+      "Do you have any pets, allergies, or dealbreakers?": "No pets. I hate late-night noise.",
+      "When are you looking to move in?": "May 1st"
+    }
+  },
+  {
+    "user_id": "u8",
+    "full_name": "Jessica",
+    "age": 18,
+    "program": "Fine Arts",
+    "monthly_budget": 1000,
+    "preferred_location": "Byward Market",
+    "survey_responses": {
+      "What is your ideal Friday night?": "Gallery hopping or painting in the living room. I love chatting with roommates till 2 AM.",
+      "How do you handle cleanliness and shared spaces?": "Creative chaos. I try to contain my paint, but I'm not a neat freak.",
+      "Do you have any pets, allergies, or dealbreakers?": "I love all animals! No dealbreakers really, just be friendly.",
+      "When are you looking to move in?": "September 1st"
+    }
+  },
+  {
+    "user_id": "u9",
+    "full_name": "Ahmed",
+    "age": 25,
+    "program": "Economics (Masters)",
+    "monthly_budget": 1200,
+    "preferred_location": "Centretown",
+    "survey_responses": {
+      "What is your ideal Friday night?": "Drinking tea and working on my thesis. I value deep conversation but mostly keep to myself.",
+      "How do you handle cleanliness and shared spaces?": "Very tidy. I respect shared property and expect the same.",
+      "Do you have any pets, allergies, or dealbreakers?": "No pets. Halal kitchen preferred (no pork/alcohol in shared fridge if possible).",
+      "When are you looking to move in?": "July 1st"
+    }
+  },
+  {
+    "user_id": "u10",
+    "full_name": "Brad",
+    "age": 21,
+    "program": "Kinesiology",
+    "monthly_budget": 800,
+    "preferred_location": "Sandy Hill",
+    "survey_responses": {
+      "What is your ideal Friday night?": "Recovering from rugby practice. Watching a movie. Maybe a beer or two.",
+      "How do you handle cleanliness and shared spaces?": "I have a lot of sports gear, so the hallway might have my bag. I'm not dirty, just cluttered.",
+      "Do you have any pets, allergies, or dealbreakers?": "None. I'm up at 5 AM though, so don't be mad if you hear the blender.",
+      "When are you looking to move in?": "September 1st"
+    }
+  },
+  {
+    "user_id": "u11",
+    "full_name": "Sophie",
+    "age": 22,
+    "program": "Political Science",
+    "monthly_budget": 1300,
+    "preferred_location": "Downtown",
+    "survey_responses": {
+      "What is your ideal Friday night?": "Networking event or wine night with colleagues. I'm rarely home on weekends.",
+      "How do you handle cleanliness and shared spaces?": "Professional standard. I sometimes host meetings, so the living room must be presentable.",
+      "Do you have any pets, allergies, or dealbreakers?": "No smoking inside. Cannot deal with weed smell.",
+      "When are you looking to move in?": "June 1st"
+    }
+  },
+  {
+    "user_id": "u12",
+    "full_name": "Liam",
+    "age": 20,
+    "program": "Computer Science",
+    "monthly_budget": 700,
+    "preferred_location": "Vanier",
+    "survey_responses": {
+      "What is your ideal Friday night?": "Streaming on Twitch until 4 AM. I have a mechanical keyboard (sorry).",
+      "How do you handle cleanliness and shared spaces?": "My desk is a mess, but I keep the kitchen okay. I order UberEats a lot.",
+      "Do you have any pets, allergies, or dealbreakers?": "No pets. Need high-speed ethernet access.",
+      "When are you looking to move in?": "Immediate"
+    }
+  },
+  {
+    "user_id": "u13",
+    "full_name": "Olivia",
+    "age": 19,
+    "program": "Psychology",
+    "monthly_budget": 900,
+    "preferred_location": "The Glebe",
+    "survey_responses": {
+      "What is your ideal Friday night?": "Taking my Golden Retriever (Buster) for a long walk and then baking cookies.",
+      "How do you handle cleanliness and shared spaces?": "There will be dog hair. I vacuum twice a week to manage it.",
+      "Do you have any pets, allergies, or dealbreakers?": "Must love dogs. I have a large dog crate in the living room.",
+      "When are you looking to move in?": "September 1st"
+    }
+  },
+  {
+    "user_id": "u14",
+    "full_name": "Wei",
+    "age": 21,
+    "program": "Mathematics",
+    "monthly_budget": 1000,
+    "preferred_location": "Sandy Hill",
+    "survey_responses": {
+      "What is your ideal Friday night?": "Cooking a large traditional meal and skyping family back home.",
+      "How do you handle cleanliness and shared spaces?": "I cook every day, so the kitchen is busy, but I scrub it down after every meal.",
+      "Do you have any pets, allergies, or dealbreakers?": "No pets. Shoes off at the door is a must.",
+      "When are you looking to move in?": "August 15th"
+    }
+  },
+  {
+    "user_id": "u15",
+    "full_name": "Jordan",
+    "age": 22,
+    "program": "Communications",
+    "monthly_budget": 1150,
+    "preferred_location": "Westboro",
+    "survey_responses": {
+      "What is your ideal Friday night?": "Editing photos or listening to podcasts. I like a chill, indie vibe.",
+      "How do you handle cleanliness and shared spaces?": "Minimalist. I don't own much stuff, so I keep things tidy naturally.",
+      "Do you have any pets, allergies, or dealbreakers?": "Vegan household preferred. Strong chemical smells (bleach) give me headaches.",
+      "When are you looking to move in?": "September 1st"
+    }
+  }
+]
