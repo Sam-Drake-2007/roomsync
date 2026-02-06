@@ -6,6 +6,8 @@
     "program": "Software Engineering",
     "monthly_budget": 900,
     "preferred_location": "Sandy Hill",
+    "phone_number": "613-555-0101",
+    "email": "thomas.u1@example.com",
     "survey_responses": {
       "What is your ideal Friday night?": "Hackathon addict. I basically live at the library or at my desk. Usually just coding with headphones on.",
       "How do you handle cleanliness and shared spaces?": "I am very clean in common areas, but my room is a bit chaotic. I do my dishes immediately.",
@@ -20,6 +22,8 @@
     "program": "Nursing",
     "monthly_budget": 1100,
     "preferred_location": "Alta Vista",
+    "phone_number": "613-555-0102",
+    "email": "sarah.u2@example.com",
     "survey_responses": {
       "What is your ideal Friday night?": "I usually work shift work, so often sleeping! When I'm off, I love cooking big dinners for friends.",
       "How do you handle cleanliness and shared spaces?": "Sterile. I work in a hospital, so germs freak me out. Common areas must be spotless.",
@@ -34,6 +38,8 @@
     "program": "Business",
     "monthly_budget": 800,
     "preferred_location": "Sandy Hill",
+    "phone_number": "613-555-0103",
+    "email": "mike.ross@example.com",
     "survey_responses": {
       "What is your ideal Friday night?": "Hosting pre-games! I love having people over and watching sports. A quiet house depresses me.",
       "How do you handle cleanliness and shared spaces?": "I'm chill. I might leave a pizza box out overnight but I'll get to it eventually.",
@@ -48,6 +54,8 @@
     "program": "Law (JD)",
     "monthly_budget": 1400,
     "preferred_location": "Golden Triangle",
+    "phone_number": "613-555-0104",
+    "email": "emily.u4@example.com",
     "survey_responses": {
       "What is your ideal Friday night?": "Reading case law with a glass of wine. I study 12 hours a day, so silence is non-negotiable.",
       "How do you handle cleanliness and shared spaces?": "Extremely organized. Everything has a label. Clutter stresses me out.",
@@ -62,6 +70,8 @@
     "program": "Music",
     "monthly_budget": 850,
     "preferred_location": "Downtown",
+    "phone_number": "613-555-0105",
+    "email": "david.u5@example.com",
     "survey_responses": {
       "What is your ideal Friday night?": "Jamming with friends or going to a local gig. I play cello daily.",
       "How do you handle cleanliness and shared spaces?": "Average. I'm happy as long as there is no mold in the sink.",
@@ -76,6 +86,8 @@
     "program": "Biology",
     "monthly_budget": 750,
     "preferred_location": "Old Ottawa South",
+    "phone_number": "613-555-0106",
+    "email": "priya.u6@example.com",
     "survey_responses": {
       "What is your ideal Friday night?": "Doing yoga and watering my 20 plants. Maybe watching a documentary.",
       "How do you handle cleanliness and shared spaces?": "I like a clean floor for yoga. I prefer a shoes-off household.",
@@ -90,6 +102,8 @@
     "program": "Civil Engineering",
     "monthly_budget": 950,
     "preferred_location": "Lees",
+    "phone_number": "613-555-0107",
+    "email": "kevin.u7@example.com",
     "survey_responses": {
       "What is your ideal Friday night?": "Gym, then meal prep for the week, then sleep early. I'm very routine-oriented.",
       "How do you handle cleanliness and shared spaces?": "I clean up after myself immediately. I expect others to do the same.",
@@ -104,6 +118,8 @@
     "program": "Fine Arts",
     "monthly_budget": 1000,
     "preferred_location": "Byward Market",
+    "phone_number": "613-555-0108",
+    "email": "jessica.u8@example.com",
     "survey_responses": {
       "What is your ideal Friday night?": "Gallery hopping or painting in the living room. I love chatting with roommates till 2 AM.",
       "How do you handle cleanliness and shared spaces?": "Creative chaos. I try to contain my paint, but I'm not a neat freak.",
@@ -118,6 +134,8 @@
     "program": "Economics (Masters)",
     "monthly_budget": 1200,
     "preferred_location": "Centretown",
+    "phone_number": "613-555-0109",
+    "email": "ahmed.u9@example.com",
     "survey_responses": {
       "What is your ideal Friday night?": "Drinking tea and working on my thesis. I value deep conversation but mostly keep to myself.",
       "How do you handle cleanliness and shared spaces?": "Very tidy. I respect shared property and expect the same.",
@@ -132,6 +150,8 @@
     "program": "Kinesiology",
     "monthly_budget": 800,
     "preferred_location": "Sandy Hill",
+    "phone_number": "613-555-0110",
+    "email": "brad.u10@example.com",
     "survey_responses": {
       "What is your ideal Friday night?": "Recovering from rugby practice. Watching a movie. Maybe a beer or two.",
       "How do you handle cleanliness and shared spaces?": "I have a lot of sports gear, so the hallway might have my bag. I'm not dirty, just cluttered.",
@@ -146,6 +166,8 @@
     "program": "Political Science",
     "monthly_budget": 1300,
     "preferred_location": "Downtown",
+    "phone_number": "613-555-0111",
+    "email": "sophie.u11@example.com",
     "survey_responses": {
       "What is your ideal Friday night?": "Networking event or wine night with colleagues. I'm rarely home on weekends.",
       "How do you handle cleanliness and shared spaces?": "Professional standard. I sometimes host meetings, so the living room must be presentable.",
@@ -160,6 +182,8 @@
     "program": "Computer Science",
     "monthly_budget": 700,
     "preferred_location": "Vanier",
+    "phone_number": "613-555-0112",
+    "email": "liam.u12@example.com",
     "survey_responses": {
       "What is your ideal Friday night?": "Streaming on Twitch until 4 AM. I have a mechanical keyboard (sorry).",
       "How do you handle cleanliness and shared spaces?": "My desk is a mess, but I keep the kitchen okay. I order UberEats a lot.",
@@ -174,6 +198,8 @@
     "program": "Psychology",
     "monthly_budget": 900,
     "preferred_location": "The Glebe",
+    "phone_number": "613-555-0113",
+    "email": "olivia.u13@example.com",
     "survey_responses": {
       "What is your ideal Friday night?": "Taking my Golden Retriever (Buster) for a long walk and then baking cookies.",
       "How do you handle cleanliness and shared spaces?": "There will be dog hair. I vacuum twice a week to manage it.",
@@ -188,6 +214,8 @@
     "program": "Mathematics",
     "monthly_budget": 1000,
     "preferred_location": "Sandy Hill",
+    "phone_number": "613-555-0114",
+    "email": "wei.u14@example.com",
     "survey_responses": {
       "What is your ideal Friday night?": "Cooking a large traditional meal and skyping family back home.",
       "How do you handle cleanliness and shared spaces?": "I cook every day, so the kitchen is busy, but I scrub it down after every meal.",
@@ -202,6 +230,8 @@
     "program": "Communications",
     "monthly_budget": 1150,
     "preferred_location": "Westboro",
+    "phone_number": "613-555-0115",
+    "email": "jordan.u15@example.com",
     "survey_responses": {
       "What is your ideal Friday night?": "Editing photos or listening to podcasts. I like a chill, indie vibe.",
       "How do you handle cleanliness and shared spaces?": "Minimalist. I don't own much stuff, so I keep things tidy naturally.",
