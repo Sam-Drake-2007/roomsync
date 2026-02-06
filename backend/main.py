@@ -45,13 +45,14 @@ class UserHousingAnswers(BaseModel):
 
 # structure for a Roommate Match
 class RoommateMatch(BaseModel):
+    id: str = Field(description="Unique identifier for the user")
     name: str = Field(description="Name of the matching user")
     match_score: int = Field(description="Score from 0-100")
     common_interests: List[str]
     why_we_match: str = Field(description="A 1-sentence explanation")
 
 class RoommateResponse(BaseModel):
-    recommendations: List[RoommateMatch]
+    recommendation: RoommateMatch
     
 class RoommateRequest(BaseModel):
     current_user: UserProfile
@@ -59,13 +60,15 @@ class RoommateRequest(BaseModel):
 
 # structure for a Housing Match
 class HousingMatch(BaseModel):
+    id: str = Field(description="Unique identifier for the listing")
     title: str = Field(description="Title of the listing")
     price: int
     scam_risk: str = Field(description="High, Medium, or Low")
     why_its_good: str = Field(description="Why this fits the user's budget/vibe")
+    match_score: int = Field(description="Score from 0-100 based on user's survey answers")
 
 class HousingResponse(BaseModel):
-    recommendations: List[HousingMatch]
+    recommendation: HousingMatch
 
 class HousingRequest(BaseModel):
     current_user: UserProfile
