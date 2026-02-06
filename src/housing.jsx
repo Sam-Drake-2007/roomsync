@@ -5,37 +5,58 @@ export default function HousingPage() {
   const [count, setCount] = useState(0)
 
   return (
-    <div class="page">
+    <div className="page">
       <h1>Housing Helper</h1>
 
       <form id="form">
-          <div class="form-layer">
-            <label for="question1">Describe your ideal Night in one sentence.</label>
-            <textarea name="message" placeholder="Type here..." rows="5"/>
+
+          <div className="form-layer">
+            <label for="location">Distance from UOttawa</label>
+            <select name="houseType">
+                <option value="500-">Less than 500m</option>
+                <option value="500-1k">500m to 1km</option>
+                <option value="1k-2k">1km to 2km</option>
+                <option value="2k-4k">2km to 4km</option>
+                <option value="5k+">5km or more</option>
+            </select>
+          </div>
+
+          <div className="form-layer">
+            <label for="typeA">Accomodation Type</label>
+            <select name="houseType">
+                <option value="appartement">Appartement</option>
+                <option value="bedroomApartment">Bedroom(s) in an apartment</option>
+                <option value="house">House</option>
+                <option value="bedroomHouse">Bedroom(s) in a house</option>
+            </select>
+          </div>
+
+          <div className="form-layer">
+            <label for="typeR">Rental Type</label>
+            <select name="rentType">
+                <option value="lease">Lease</option>
+                <option value="monthly">Monthly</option>
+                <option value="sublet">Sublet</option>
+            </select>
+          </div>
+
+          <div className="form-layer">
+            <label for="money">Minimum Prefered Monthly Rent</label>
+            <input type="text"  placeholder="Enter your amount in $"/>
+          </div>
+
+          <div className="form-layer">
+            <label for="money" >Maximum Prefered Monthly Rent</label>
+            <input type="text" placeholder="Enter your amount in $"/>
           </div>
 
           <div class="form-layer">
-            <label for="question2">What are 'roommate habits' that annoy you?</label>
+            <label for="importantFacts" >What is important to you in an accomodation? Ex:(Safety, Grocery Access, Parking)</label>
             <textarea name="message" placeholder="Type here..." rows="5"/>
           </div>
 
-          <div class="form-layer">
-            <label for="question3" >Are you an early bird or a night owl? Be specific about your hours.</label>
-            <textarea name="message" placeholder="Type here..." rows="5"/>
-          </div>
-
-          <div class="form-layer">
-            <label for="question4" >How often do you put aside time to clean up your environnment.</label>
-            <textarea name="message" placeholder="Type here..." rows="5"/>
-          </div>
-
-          <div class="form-layer">
-            <label for="question5" >Do you have any dealbreakers? (Pets, smoking, guests, allergies)</label>
-            <textarea name="message" placeholder="Type here..." rows="5"/>
-          </div>
-
-          <div class="buttonbox">
-            <Link to="/h-results" class="button">Find Best Match</Link>
+          <div className="buttonbox">
+            <Link to="/h-results" className="button">Find Best Match</Link>
           </div>
           
         </form>
