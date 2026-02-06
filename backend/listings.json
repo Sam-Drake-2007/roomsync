@@ -1,0 +1,167 @@
+[
+  {
+    "id": 1,
+    "title": "Modern 1-Bedroom Condo in Centretown",
+    "price": 1850,
+    "address": "340 McLeod St, Ottawa, ON",
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "description": "Stunning open-concept condo with floor-to-ceiling windows. Hardwood floors, granite countertops, and stainless steel appliances. In-unit laundry. Building features a gym and rooftop terrace. Hydro extra.",
+    "is_verified": true,
+    "contact_email": "sarah.jenkins@rentals.ca"
+  },
+  {
+    "id": 2,
+    "title": "Cozy Basement Apt in The Glebe",
+    "price": 1200,
+    "address": "Third Ave, Ottawa, ON",
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "description": "Renovated basement apartment in a quiet family home. Separate entrance. Walking distance to Lansdowne Park and the canal. All utilities included + high-speed internet. Perfect for a young professional.",
+    "is_verified": true,
+    "contact_email": "gleberentals@gmail.com"
+  },
+  {
+    "id": 3,
+    "title": "Large Room in Sandy Hill Heritage Home",
+    "price": 875,
+    "address": "Blackburn Ave, Ottawa, ON",
+    "bedrooms": 1,
+    "bathrooms": 2,
+    "description": "Looking for a clean and respectful roommate to share a beautiful 4-bedroom house. Large room with bay window. Hardwood floors. Shared kitchen and living room. Close to uOttawa and grocery stores.",
+    "is_verified": true,
+    "contact_email": "matt.d@uottawa.ca"
+  },
+  {
+    "id": 4,
+    "title": "luxury apartment for rent very cheap !!!",
+    "price": 600,
+    "address": "90 George St, Ottawa, ON",
+    "bedrooms": 2,
+    "bathrooms": 2,
+    "description": "Hello dear, I have a beautiful fully furnished 2 bedroom apartment available for rent. The price is low because I am currently doing missionary work in West Africa and looking for a responsible person to take care of my home. Kindly contact me via email only. Utilities included.",
+    "is_verified": false,
+    "contact_email": "rev.john.smith1965@hotmail.com"
+  },
+  {
+    "id": 5,
+    "title": "3 Bedroom Townhouse in Kanata",
+    "price": 2400,
+    "address": "Terry Fox Dr, Kanata, ON",
+    "bedrooms": 3,
+    "bathrooms": 2.5,
+    "description": "Spacious end-unit townhouse. Large backyard, garage, and finished basement. Close to tech park and shopping centers. Family-friendly neighborhood with parks nearby. Minimum 1-year lease.",
+    "is_verified": true,
+    "contact_email": "kanata.properties@outlook.com"
+  },
+  {
+    "id": 6,
+    "title": "Bright Studio in Westboro",
+    "price": 1450,
+    "address": "Richmond Rd, Ottawa, ON",
+    "bedrooms": 0,
+    "bathrooms": 1,
+    "description": "Chic studio apartment in the heart of Westboro Village. Steps from trendy shops, cafes, and the beach. Modern finishes, AC, and storage locker included. Parking available for $100/mo.",
+    "is_verified": true,
+    "contact_email": "leasing@westborolofts.com"
+  },
+  {
+    "id": 7,
+    "title": "Shared House - Party Vibe 🍻",
+    "price": 750,
+    "address": "Henderson Ave, Ottawa, ON",
+    "bedrooms": 1,
+    "bathrooms": 1.5,
+    "description": "Room avail in a 5-bed house. We like to have fun on weekends but chill during the week. Big backyard for BBQs. 420 friendly. If you're cool, message us.",
+    "is_verified": true,
+    "contact_email": "chadshouse@gmail.com"
+  },
+  {
+    "id": 8,
+    "title": "URGENT SUBLET - Lees Ave",
+    "price": 900,
+    "address": "170 Lees Ave, Ottawa, ON",
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "description": "Subletting my room in a 2-bedroom apartment from May to August. 1 min walk to O-Train. Great view of the river. Building has a pool and sauna. Female roommates only please.",
+    "is_verified": true,
+    "contact_email": "jessica.w@gmail.com"
+  },
+  {
+    "id": 9,
+    "title": "2 Bedroom Basement - ALL INCLUSIVE",
+    "price": 1600,
+    "address": "St. Laurent Blvd, Ottawa, ON",
+    "bedrooms": 2,
+    "bathrooms": 1,
+    "description": "Clean and spacious 2-bedroom basement unit. Freshly painted. Close to St. Laurent mall and transitway. No pets, no smoking. First and last required.",
+    "is_verified": true,
+    "contact_email": "rentals@ottawahomes.ca"
+  },
+  {
+    "id": 10,
+    "title": "BEAUTIFUL PENTHOUSE VIEW",
+    "price": 800,
+    "address": "Rideau St, Ottawa, ON",
+    "bedrooms": 2,
+    "bathrooms": 2,
+    "description": "Amzing oppurtunity to live in luxury. I am looking for someone to look after the place while I am away on business in London. Send deposit via Western Union to secure keys. I will mail them to you. Do not visit property as current tenant is still there.",
+    "is_verified": false,
+    "contact_email": "dr.james.wilson.uk@yahoo.com"
+  },
+  {
+    "id": 11,
+    "title": "Family Home in Orleans",
+    "price": 2600,
+    "address": "Innes Rd, Orleans, ON",
+    "bedrooms": 4,
+    "bathrooms": 3,
+    "description": "Beautiful detached home with double garage. Open concept main floor with fireplace. Large master bedroom with ensuite. Fenced yard. Great schools nearby. Available immediately.",
+    "is_verified": true,
+    "contact_email": "orleans.listings@remax.ca"
+  },
+  {
+    "id": 12,
+    "title": "Affordable Room near Algonquin College",
+    "price": 700,
+    "address": "Woodroffe Ave, Ottawa, ON",
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "description": "Private room in a shared townhouse. 10 min walk to Algonquin. Furnished with bed and desk. Shared kitchen/bath with 2 other male students. Quiet house, focus on studies.",
+    "is_verified": true,
+    "contact_email": "algonquin.room@gmail.com"
+  },
+  {
+    "id": 13,
+    "title": "Executive 2-Bed in Byward Market",
+    "price": 2900,
+    "address": "Clarence St, Ottawa, ON",
+    "bedrooms": 2,
+    "bathrooms": 2,
+    "description": "High-end furnished apartment in the heart of the market. Exposed brick walls, chef's kitchen, private balcony. Short term leases available. Ideal for diplomats or executives.",
+    "is_verified": true,
+    "contact_email": "luxuryrentalsottawa@gmail.com"
+  },
+  {
+    "id": 14,
+    "title": "Pet Friendly 1-Bedroom",
+    "price": 1550,
+    "address": "Bank St, Ottawa, ON",
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "description": "Renovated 1-bedroom in a low-rise building. Hardwood floors. very pet friendly building! Close to dog parks and shops in Old Ottawa South. Heat and water included.",
+    "is_verified": true,
+    "contact_email": "bankstreetapts@outlook.com"
+  },
+  {
+    "id": 15,
+    "title": "Nice room",
+    "price": 500,
+    "address": "Unknown",
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "description": "room for rent. kindly send money order for first month. i will send key. trust me.",
+    "is_verified": false,
+    "contact_email": "trusted.landlord77@hotmail.com"
+  }
+]
