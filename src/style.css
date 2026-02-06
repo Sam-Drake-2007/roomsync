@@ -1,14 +1,27 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
 .page {
-    text-align: center;
+    box-sizing: border-box;
+    width: 100%;
+    min-height: 100vh;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    display: grid;
-    place-items: center;
+    text-align: center;
+    background: linear-gradient(to top, #0528F2, #3D9DF2);
 }
 
 h1 {
     margin-bottom: 0;
-    margin-top: 20px;
+    margin: 20px;
+    color: #EBEEF2;
 
 }
 
@@ -16,15 +29,19 @@ form {
     width: 400px;
     margin: 10px;
     padding : 20px;
-    height: 200vh;
+    height: fit-content;
     justify-content: center;
     align-items: left;
+    background: linear-gradient(to top, #B4C4D9, #EBEEF2);
+    border: 5px solid #B4C4D9;
+    border-radius: 5px;
 }
 
 .form-layer {
     margin: 10px;
     padding : 5px;
     text-align: left;
+    color: #056CF2;
 }
 
 .form-layer label {
@@ -44,9 +61,19 @@ form {
     place-items: center;
 }
 
+.button:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
 .button {
     margin: 5px;
     padding : 5px;
+    border: 2px solid #056CF2;
+    border-radius: 5px;
+    background: #3D9DF2;
+    text-decoration: none;
+    color:#EBEEF2;
 }
 
 .form-layer textarea {
