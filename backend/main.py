@@ -8,6 +8,7 @@ from google import genai
 from dotenv import load_dotenv
 
 load_dotenv()
+# fastapi dev main.py
 app = FastAPI()
 
 app.add_middleware(
@@ -20,9 +21,11 @@ app.add_middleware(
 
 with open("listings.json", "r") as f:
     LISTINGS_DB = json.load(f)
+    print(f"Loaded {len(LISTINGS_DB)} listings from the database.")
 
 with open("users.json", "r") as f:
     USERS_DB = json.load(f)
+    print(f"Loaded {len(USERS_DB)} users from the database.")
 
 # Contact info
 class UserProfile(BaseModel):
@@ -49,6 +52,10 @@ class RoommateMatch(BaseModel):
 
 class RoommateResponse(BaseModel):
     recommendations: List[RoommateMatch]
+    
+class RoommateRequest(BaseModel):
+    current_user: UserProfile
+    answers: UserRoomateAnswers
 
 # structure for a Housing Match
 class HousingMatch(BaseModel):
@@ -60,6 +67,10 @@ class HousingMatch(BaseModel):
 class HousingResponse(BaseModel):
     recommendations: List[HousingMatch]
 
+class HousingRequest(BaseModel):
+    current_user: UserProfile
+    answers: UserHousingAnswers
+
 # Initialize Gemini client
 client = genai.Client(api_key=os.getenv("GEMINI_API_KEY")) 
 
@@ -70,15 +81,15 @@ async def read_root():
 
 # Endpoint for matching roommates
 @app.post("/compatibility/users", response_model=RoommateResponse)
-async def match_roommates(current_user: UserProfile, answers: UserRoomateAnswers):
+async def match_roommates(request: RoommateRequest):
     """
     Sends the Current User + The Entire User DB to Gemini.
     Gemini picks the best roomate fit.
     """
     prompt = f"""
     I am looking for a roommate.
-    My Profile: {current_user.model_dump_json()}
-    My Survey Answers: {answers.model_dump_json()}
+    My Profile: {request.current_user.model_dump_json()}
+    My Survey Answers: {request.answers.model_dump_json()}
 
     Here is the database of potential roommates:
     {json.dumps(USERS_DB)}
@@ -102,15 +113,15 @@ async def match_roommates(current_user: UserProfile, answers: UserRoomateAnswers
 
 # Endpoint for matching housing listings
 @app.post("/compatibility/listings", response_model=HousingResponse)
-async def match_listings(current_user: UserProfile, answers: UserHousingAnswers):
+async def match_listings(request: HousingRequest):
     """
     Sends the Current User + The Entire Listings DB to Gemini.
     Gemini picks the best appartment fit and analyzes the listing for scam markers.
     """
     prompt = f"""
     I am looking for housing.
-    My Profile: {current_user.model_dump_json()}
-    My Survey Answers: {answers.model_dump_json()}
+    My Profile: {request.current_user.model_dump_json()}
+    My Survey Answers: {request.answers.model_dump_json()}
 
     Here is the database of listings:
     {json.dumps(LISTINGS_DB)}
