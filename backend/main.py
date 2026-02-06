@@ -86,6 +86,9 @@ async def match_roommates(request: RoommateRequest):
     Sends the Current User + The Entire User DB to Gemini.
     Gemini picks the best roomate fit.
     """
+    
+    # model_dump_json() converts the pydantic json to a strnig to we can easily show gemini what we're dealing with
+    # json.dumps does the same thing except works for something that isnt a pydantic model (like our USERS_DB which is a list of dicts)
     prompt = f"""
     I am looking for a roommate.
     My Profile: {request.current_user.model_dump_json()}
@@ -118,9 +121,10 @@ async def match_listings(request: HousingRequest):
     Sends the Current User + The Entire Listings DB to Gemini.
     Gemini picks the best appartment fit and analyzes the listing for scam markers.
     """
+    
     prompt = f"""
     I am looking for housing.
-    My Profile: {request.current_user.model_dump_json()}
+    My Profile: {request.current_user.model_dump_json()} 
     My Survey Answers: {request.answers.model_dump_json()}
 
     Here is the database of listings:
