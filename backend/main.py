@@ -1,13 +1,14 @@
 import json
 import os
 from typing import List
-from fastapi import FastAPI, HTTPException
+from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel, Field
 from google import genai
 from dotenv import load_dotenv
 
 load_dotenv()
+# fastapi dev main.py
 app = FastAPI()
 
 app.add_middleware(
@@ -18,11 +19,13 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-with open("listings.json", "r") as f:
+with open("listings.json", "r", encoding="utf-8") as f:
     LISTINGS_DB = json.load(f)
+    print(f"Loaded {len(LISTINGS_DB)} listings from the database.")
 
-with open("users.json", "r") as f:
+with open("users.json", "r", encoding="utf-8") as f:
     USERS_DB = json.load(f)
+    print(f"Loaded {len(USERS_DB)} users from the database.")
 
 # Contact info
 class UserProfile(BaseModel):
@@ -42,23 +45,34 @@ class UserHousingAnswers(BaseModel):
 
 # structure for a Roommate Match
 class RoommateMatch(BaseModel):
+    id: str = Field(description="Unique identifier for the user")
     name: str = Field(description="Name of the matching user")
     match_score: int = Field(description="Score from 0-100")
     common_interests: List[str]
     why_we_match: str = Field(description="A 1-sentence explanation")
 
 class RoommateResponse(BaseModel):
-    recommendations: List[RoommateMatch]
+    recommendation: RoommateMatch
+    
+class RoommateRequest(BaseModel):
+    current_user: UserProfile
+    answers: UserRoomateAnswers
 
 # structure for a Housing Match
 class HousingMatch(BaseModel):
+    id: str = Field(description="Unique identifier for the listing")
     title: str = Field(description="Title of the listing")
     price: int
     scam_risk: str = Field(description="High, Medium, or Low")
     why_its_good: str = Field(description="Why this fits the user's budget/vibe")
+    match_score: int = Field(description="Score from 0-100 based on user's survey answers")
 
 class HousingResponse(BaseModel):
-    recommendations: List[HousingMatch]
+    recommendation: HousingMatch
+
+class HousingRequest(BaseModel):
+    current_user: UserProfile
+    answers: UserHousingAnswers
 
 # Initialize Gemini client
 client = genai.Client(api_key=os.getenv("GEMINI_API_KEY")) 
@@ -70,15 +84,18 @@ async def read_root():
 
 # Endpoint for matching roommates
 @app.post("/compatibility/users", response_model=RoommateResponse)
-async def match_roommates(current_user: UserProfile, answers: UserRoomateAnswers):
+async def match_roommates(request: RoommateRequest):
     """
     Sends the Current User + The Entire User DB to Gemini.
-    Gemini picks the best fits.
+    Gemini picks the best roomate fit.
     """
+    
+    # model_dump_json() converts the pydantic json to a strnig to we can easily show gemini what we're dealing with
+    # json.dumps does the same thing except works for something that isnt a pydantic model (like our USERS_DB which is a list of dicts)
     prompt = f"""
     I am looking for a roommate.
-    My Profile: {current_user.model_dump_json()}
-    My Survey Answers: {answers.model_dump_json()}
+    My Profile: {request.current_user.model_dump_json()}
+    My Survey Answers: {request.answers.model_dump_json()}
 
     Here is the database of potential roommates:
     {json.dumps(USERS_DB)}
@@ -102,22 +119,23 @@ async def match_roommates(current_user: UserProfile, answers: UserRoomateAnswers
 
 # Endpoint for matching housing listings
 @app.post("/compatibility/listings", response_model=HousingResponse)
-async def match_listings(current_user: UserProfile, answers: UserHousingAnswers):
+async def match_listings(request: HousingRequest):
     """
     Sends the Current User + The Entire Listings DB to Gemini.
-    Gemini picks the best apartments.
+    Gemini picks the best appartment fit and analyzes the listing for scam markers.
     """
+    
     prompt = f"""
     I am looking for housing.
-    My Profile: {current_user.model_dump_json()}
-    My Survey Answers: {answers.model_dump_json()}
+    My Profile: {request.current_user.model_dump_json()} 
+    My Survey Answers: {request.answers.model_dump_json()}
 
     Here is the database of listings:
     {json.dumps(LISTINGS_DB)}
 
     Task:
     1. Find the MOST compatible listing based on my survey answers.
-    2. Analyze the listing description for scam markers (bad grammar, 'kindly', etc).
+    2. Analyze the listing description for potential scams (e.g. price too good to be true, requests for payment outside of platform, etc.)
     3. Return the results.
     """
 
