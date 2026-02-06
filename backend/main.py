@@ -90,7 +90,7 @@ async def match_roommates(current_user: UserProfile, answers: UserRoomateAnswers
     """
 
     response = client.models.generate_content(
-        model="gemini-2.5-flash", 
+        model="gemini-2.5-flash-lite", 
         contents=prompt,
         config={
             "response_mime_type": "application/json",
@@ -122,7 +122,7 @@ async def match_listings(current_user: UserProfile, answers: UserHousingAnswers)
     """
 
     response = client.models.generate_content(
-        model="gemini-2.5-flash",
+        model="gemini-2.5-flash-lite",
         contents=prompt,
         config={
             "response_mime_type": "application/json",
