@@ -73,7 +73,7 @@ async def read_root():
 async def match_roommates(current_user: UserProfile, answers: UserRoomateAnswers):
     """
     Sends the Current User + The Entire User DB to Gemini.
-    Gemini picks the best fits.
+    Gemini picks the best roomate fit.
     """
     prompt = f"""
     I am looking for a roommate.
@@ -105,7 +105,7 @@ async def match_roommates(current_user: UserProfile, answers: UserRoomateAnswers
 async def match_listings(current_user: UserProfile, answers: UserHousingAnswers):
     """
     Sends the Current User + The Entire Listings DB to Gemini.
-    Gemini picks the best apartments.
+    Gemini picks the best appartment fit and analyzes the listing for scam markers.
     """
     prompt = f"""
     I am looking for housing.
