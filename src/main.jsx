@@ -4,12 +4,22 @@ import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import './style.css'
 import ContentPage from './content.jsx'
+import RoommatePage from './roommate.jsx'
+import HousingPage from './housing.jsx'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 
 const router = createBrowserRouter([
   {
-    path: '/content',
+    path: '/',
     element: <ContentPage />
+  },
+  {
+    path: '/roommate',
+    element: <RoommatePage />
+  },
+  {
+    path: '/housing',
+    element: <HousingPage />
   }
 ]);
 
