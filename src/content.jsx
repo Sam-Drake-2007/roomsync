@@ -10,17 +10,17 @@ export default function ContentPage() {
         <form id="form">
           <div class="form-layer">
             <label for="name">Full Name</label>
-            <input type="text" id="name" placeholder="Enter your full name"/>
+            <input type="text" placeholder="Enter your full name"/>
           </div>
 
           <div class="form-layer">
             <label for="email">Contact Email</label>
-            <input type="text" id="name" placeholder="Enter your email"/>
+            <input type="text"  placeholder="Enter your email"/>
           </div>
 
           <div class="form-layer">
             <label for="phone" >Contact Phone Number</label>
-            <input type="text" id="name" placeholder="Enter your phone number"/>
+            <input type="text" placeholder="Enter your phone number"/>
           </div>
 
           <div class="buttonbox">
