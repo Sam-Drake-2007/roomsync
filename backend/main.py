@@ -1,7 +1,7 @@
 import json
 import os
 from typing import List
-from fastapi import FastAPI, HTTPException
+from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel, Field
 from google import genai
@@ -128,7 +128,7 @@ async def match_listings(request: HousingRequest):
 
     Task:
     1. Find the MOST compatible listing based on my survey answers.
-    2. Analyze the listing description for scam markers (bad grammar, 'kindly', etc).
+    2. Analyze the listing description for potential scams (e.g. price too good to be true, requests for payment outside of platform, etc.)
     3. Return the results.
     """
 
