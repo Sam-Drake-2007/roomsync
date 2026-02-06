@@ -1,1 +1,30 @@
-/* style.css */
+.page {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    place-items: center;
+}
+
+form {
+    max-width: 600px;
+    margin: 20px;
+    padding : 20px;
+    height: 200vh;
+    justify-content: center;
+    align-items: left;
+}
+
+.form-layer {
+    margin: 10px;
+    padding : 5px;
+    text-align: left;
+}
+
+.form-layer label {
+    margin-right: 15px;
+}
+
+.form-layer input {
+    width: 100%;
+}
