@@ -6,9 +6,15 @@
     place-items: center;
 }
 
+h1 {
+    margin-bottom: 0;
+    margin-top: 20px;
+
+}
+
 form {
-    max-width: 600px;
-    margin: 20px;
+    width: 400px;
+    margin: 10px;
     padding : 20px;
     height: 200vh;
     justify-content: center;
@@ -23,8 +29,31 @@ form {
 
 .form-layer label {
     margin-right: 15px;
+    display: block;
 }
 
 .form-layer input {
     width: 100%;
+}
+
+.buttonbox {
+    justify-content: center;
+    margin: 10px;
+    padding : 5px;
+    display: grid;
+    place-items: center;
+}
+
+.button {
+    margin: 5px;
+    padding : 5px;
+}
+
+.form-layer textarea {
+    width: 100%;
+    margin: 5px;
+    resize: vertical;
+    min-height: 20px;
+    box-sizing: border-box;
+
 }
