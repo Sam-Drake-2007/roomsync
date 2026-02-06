@@ -18,13 +18,13 @@ export default function RoommateResults() {
     <div className="page">
       <h1>Roommates Results</h1>
       
-      <div className="result-card">
+      <div className="form">
         <h2>Best Match: {recommendation.name}</h2>
         
         {/* New Contact Section */}
         <div className="contact-info" style={{ marginBottom: '15px', color: '#555' }}>
-            <p><strong>📞 Phone:</strong> <a href={`tel:${recommendation.phone_number}`}>{recommendation.phone_number}</a></p>
-            <p><strong>📧 Email:</strong> <a href={`mailto:${recommendation.email}`}>{recommendation.email}</a></p>
+            <p><strong>Phone:</strong> <a href={`tel:${recommendation.phone_number}`}>{recommendation.phone_number}</a></p>
+            <p><strong>Email:</strong> <a href={`mailto:${recommendation.email}`}>{recommendation.email}</a></p>
         </div>
 
         <h3>Match Score: {recommendation.match_score}/100</h3>
