@@ -163,5 +163,159 @@
     "description": "room for rent. kindly send money order for first month. i will send key. trust me.",
     "is_verified": false,
     "contact_email": "trusted.landlord77@hotmail.com"
+  },
+  {
+    "id": 16,
+    "title": "Chic Loft in Little Italy",
+    "price": 1950,
+    "address": "Preston St, Ottawa, ON",
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "description": "Industrial style loft with exposed concrete ceilings and huge windows. Steps from Dow's Lake and the best Italian food in the city. In-suite laundry and underground parking included. Available Sept 1.",
+    "is_verified": true,
+    "contact_email": "preston.lofts@management.ca"
+  },
+  {
+    "id": 17,
+    "title": "Quiet 2-Storey in Barrhaven",
+    "price": 2300,
+    "address": "Greenbank Rd, Nepean, ON",
+    "bedrooms": 3,
+    "bathrooms": 2.5,
+    "description": "Perfect family home in a safe neighborhood. Close to schools and shopping centers. Large fenced backyard with deck. Unfinished basement for storage. Utilities extra.",
+    "is_verified": true,
+    "contact_email": "barrhaven.rentals@gmail.com"
+  },
+  {
+    "id": 18,
+    "title": "AMAZING DEAL 3 BEDROOM!!!",
+    "price": 850,
+    "address": "Elgin St, Ottawa, ON",
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "description": "God bless you. I am renting my beautiful luxury apartment for very cheap price because I have moved to California for charity work with disabled children. I am not interested in money, just a good person to watch the house. Keys are with me, I will mail them after deposit.",
+    "is_verified": false,
+    "contact_email": "pastor.davis.charity@yahoo.com"
+  },
+  {
+    "id": 19,
+    "title": "Affordable 1-Bed in Vanier",
+    "price": 1100,
+    "address": "Montreal Rd, Ottawa, ON",
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "description": "Cozy apartment on the second floor. Renovated kitchen. Bus stop right outside the door, 15 mins to downtown. Parking available for extra cost. Heat and water included, hydro extra.",
+    "is_verified": true,
+    "contact_email": "vanier.living@outlook.com"
+  },
+  {
+    "id": 20,
+    "title": "Brand New Townhome - Riverside South",
+    "price": 2550,
+    "address": "Limebank Rd, Ottawa, ON",
+    "bedrooms": 3,
+    "bathrooms": 3,
+    "description": "Never lived in! Executive townhouse with high-end finishes. Quartz countertops, gas fireplace, and 9ft ceilings. Close to future O-Train extension. Long-term lease preferred.",
+    "is_verified": true,
+    "contact_email": "leasing@richcraft-rentals.com"
+  },
+  {
+    "id": 21,
+    "title": "Student Room near Carleton U",
+    "price": 650,
+    "address": "Sunnyside Ave, Ottawa, ON",
+    "bedrooms": 1,
+    "bathrooms": 2,
+    "description": "Small room available in a shared student house. 5 min walk to campus. Fully furnished common areas. Rent includes internet and utilities. Looking for quiet upper-year student.",
+    "is_verified": true,
+    "contact_email": "cu.housing.share@gmail.com"
+  },
+  {
+    "id": 22,
+    "title": "Spectacular Views of Parliament",
+    "price": 3200,
+    "address": "Queen St, Ottawa, ON",
+    "bedrooms": 2,
+    "bathrooms": 2,
+    "description": "Live in the sky. 25th floor condo with direct view of the Peace Tower. 24hr concierge, pool, sauna, and party room. High-end appliances. Furnished option available.",
+    "is_verified": true,
+    "contact_email": "downtown.luxury@realtor.ca"
+  },
+  {
+    "id": 23,
+    "title": "fully furnished house for rent",
+    "price": 600,
+    "address": "Confidential",
+    "bedrooms": 4,
+    "bathrooms": 3,
+    "description": "hello, renting this lovely home. i am currently deaf so please do not call phone number. email only. i am out of country for surgery. send transfer via moneygram to secure the lease. do not go to property without my permission.",
+    "is_verified": false,
+    "contact_email": "landlord.owner554@hotmail.com"
+  },
+  {
+    "id": 24,
+    "title": "Spacious Basement in Alta Vista",
+    "price": 1400,
+    "address": "Heron Rd, Ottawa, ON",
+    "bedrooms": 2,
+    "bathrooms": 1,
+    "description": "Large legal secondary dwelling unit. High ceilings and large windows, does not feel like a basement. Shared backyard access. Driveway parking for 1 car included. No pets.",
+    "is_verified": true,
+    "contact_email": "altavista.home@gmail.com"
+  },
+  {
+    "id": 25,
+    "title": "Trendly Duplex Upper Unit",
+    "price": 1750,
+    "address": "Wellington St W, Ottawa, ON",
+    "bedrooms": 2,
+    "bathrooms": 1,
+    "description": "Character home in Hintonburg. Original hardwood floors and trim. Balcony facing the street. eclectic neighborhood with great coffee shops and breweries. Heat included.",
+    "is_verified": true,
+    "contact_email": "wellington.rentals@gmail.com"
+  },
+  {
+    "id": 26,
+    "title": "Cheap Studio in Hull (Gatineau)",
+    "price": 950,
+    "address": "Boul Alexandre-Taché, Gatineau, QC",
+    "bedrooms": 0,
+    "bathrooms": 1,
+    "description": "Just across the bridge from Ottawa. 10 min bus to Rideau Centre. Hydro Quebec rates! Simple studio, clean and bright. Laundromat in building.",
+    "is_verified": true,
+    "contact_email": "gatineau.apts@videotron.ca"
+  },
+  {
+    "id": 27,
+    "title": "Executive Estate in Rockcliffe",
+    "price": 5500,
+    "address": "Park Rd, Ottawa, ON",
+    "bedrooms": 5,
+    "bathrooms": 4,
+    "description": "Prestigious address for diplomats or executives. Private grounds, swimming pool, and heritage architecture. Modernized kitchen and bathrooms. Security system installed.",
+    "is_verified": true,
+    "contact_email": "rockcliffe.estates@sothebysrealty.ca"
+  },
+  {
+    "id": 28,
+    "title": "urgent rent very nice",
+    "price": 450,
+    "address": "Laurier Ave, Ottawa, ON",
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "description": "luxury condo unit. rent includes everything. i am civil engineer working in UK right now. need someone to take care of my baby (the apartment). send security deposit i send keys via FedEx. 100% real.",
+    "is_verified": false,
+    "contact_email": "eng.robert.uk.project@gmail.com"
+  },
+  {
+    "id": 29,
+    "title": "Sunny 1-Bed in New Edinburgh",
+    "price": 1650,
+    "address": "Beechwood Ave, Ottawa, ON",
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "description": "Great location near the Governor General's grounds. Bright unit with updated flooring. Grocery store and pharmacy across the street. Quiet building, suitable for professionals.",
+    "is_verified": true,
+    "contact_email": "beechwood.props@rogers.com"
   }
 ]
