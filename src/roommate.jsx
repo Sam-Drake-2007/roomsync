@@ -1,13 +1,14 @@
 import { useState } from 'react'
-import { Link, useNavigate } from 'react-router-dom'
+import { Link, useLocation, useNavigate } from 'react-router-dom'
 
 export default function RoommatePage() {
   const navigate = useNavigate();
+  const location = useLocation();
 
-  const dummyUser = {
-    name: "Samuel (Demo)",
-    phone: "555-0199",
-    email: "sam@uottawa.ca"
+  const currentUser = location.state?.currentUser || {
+    name: "Guest User",
+    phone: "NA",
+    email: "NA"
   };
 
   const handleSubmit = async (e) => {
@@ -17,7 +18,7 @@ export default function RoommatePage() {
 
     // backend api call
     const payload = {
-      current_user: dummyUser, // dummy user for now, replace with actual user data
+      current_user: currentUser,
       answers: {
         questions: [
           "Describe your ideal Night in one sentence.", 
