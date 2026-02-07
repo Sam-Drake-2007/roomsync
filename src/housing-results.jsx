@@ -4,6 +4,15 @@ export default function HousingResults() {
   const location = useLocation();
   const results = location.state.results; 
   const recommendation = results.recommendation;
+  
+  if (!recommendation) {
+    return (
+      <div className="page">
+        <h1>No Recommendation Found</h1>
+        <Link to="/housing" className="button">Try Again</Link>
+      </div>
+    );
+  }
 
   return (
     <div className="page">

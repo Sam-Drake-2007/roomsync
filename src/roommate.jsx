@@ -94,7 +94,7 @@ export default function RoommatePage() {
           <div className="homebox">
             <Link to="/" className="button">Home</Link>
           </div>
-          
+
         </form>
     </div>
   )
