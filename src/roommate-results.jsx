@@ -18,7 +18,7 @@ export default function RoommateResults() {
     <div className="page">
       <h1>Roommates Results</h1>
       
-      <div className="form">
+      <div className="results">
         <h2>Best Match: {recommendation.name}</h2>
         
         {/* New Contact Section */}
