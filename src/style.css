@@ -28,6 +28,18 @@ h1 {
 
 }
 
+h2 {
+    color: #056CF2;
+    font-family: "Nunito Sans", sans-serif;
+
+}
+
+h3 {
+    color: #056CF2;
+    font-family: "Nunito Sans", sans-serif;
+
+}
+
 form {
     width: 400px;
     margin: 10px;
