@@ -135,7 +135,7 @@ export default function HousingPage() {
           </div>
 
           <div className="buttonbox">
-            <Link to="/h-results" className="button" onClick={handleSubmit}>Find Best Match</Link>
+            <button className="button" onClick={handleSubmit}>Find Best Match</button>
           </div>
 
           <div className="homebox">

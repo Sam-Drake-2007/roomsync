@@ -89,7 +89,7 @@ export default function RoommatePage() {
           </div>
 
           <div className="buttonbox">
-            <Link to="/r-results" className="button" onClick={handleSubmit}>Find Best Match</Link>
+            <button to="/r-results" className="button" onClick={handleSubmit}>Find Best Match</button>
           </div>
 
           <div className="homebox">
