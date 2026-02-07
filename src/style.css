@@ -22,6 +22,9 @@ h1 {
     margin-bottom: 0;
     margin: 20px;
     color: #EBEEF2;
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: 800;
+    font-size: 50px;
 
 }
 
@@ -54,6 +57,7 @@ form {
     padding : 5px;
     text-align: left;
     color: #056CF2;
+    font-family: "Nunito Sans", sans-serif;
 }
 
 .form-layer label {
@@ -86,6 +90,7 @@ form {
     background: #3D9DF2;
     text-decoration: none;
     color:#EBEEF2;
+    font-family: "Nunito Sans", sans-serif;
 }
 
 .form-layer textarea {
