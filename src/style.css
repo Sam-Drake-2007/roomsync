@@ -37,6 +37,18 @@ form {
     border-radius: 5px;
 }
 
+.results {
+    width: 400px;
+    margin: 10px;
+    padding : 20px;
+    height: fit-content;
+    justify-content: center;
+    align-items: left;
+    background: linear-gradient(to top, #B4C4D9, #EBEEF2);
+    border: 5px solid #B4C4D9;
+    border-radius: 5px;
+}
+
 .form-layer {
     margin: 10px;
     padding : 5px;
