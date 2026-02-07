@@ -18,7 +18,7 @@ export default function ContentPage() {
 
   return (
     <div className="page">
-      <h1>Housing Portal</h1>
+      <h1>RoomSync Housing Portal</h1>
       
         <form id="form"> 
           <div className="form-layer">
