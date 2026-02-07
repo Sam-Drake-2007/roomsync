@@ -52,6 +52,16 @@ form {
     border-radius: 5px;
 }
 
+p {
+    color: #056CF2;
+    font-family: "Nunito Sans", sans-serif;
+}
+
+a {
+    color: #056CF2;
+    font-family: "Nunito Sans", sans-serif;
+}
+
 .form-layer {
     margin: 10px;
     padding : 5px;
