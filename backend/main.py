@@ -113,7 +113,7 @@ async def match_roommates(request: RoommateRequest):
     """
 
     response = client.models.generate_content(
-        model="gemini-2.5-flash-lite", 
+        model="gemini-3-flash-preview", 
         contents=prompt,
         config={
             "response_mime_type": "application/json",
@@ -150,7 +150,7 @@ async def match_listings(request: HousingRequest):
     """
 
     response = client.models.generate_content(
-        model="gemini-3.0-flash",
+        model="gemini-3-flash-preview",
         contents=prompt,
         config={
             "response_mime_type": "application/json",
