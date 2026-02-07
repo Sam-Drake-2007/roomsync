@@ -3,11 +3,12 @@ import { Link, useNavigate } from 'react-router-dom'
 
 export default function HousingPage() {
   const navigate = useNavigate();
+  const location = useLocation();
 
-  const dummyUser = {
-    name: "Samuel (Demo)",
-    phone: "555-0199",
-    email: "sam@uottawa.ca"
+  const currentUser = location.state?.currentUser ||  {
+    name: "Guest User",
+    phone: "NA",
+    email: "NA"
   };
 
   const [formData, setFormData] = useState({
@@ -31,7 +32,7 @@ export default function HousingPage() {
 
     // backend api call
     const payload = {
-      current_user: dummyUser,
+      current_user: currentUser,
       answers: {
         questions: [
           "Distance from UOttawa",
