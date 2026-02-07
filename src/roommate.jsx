@@ -11,6 +11,14 @@ export default function RoommatePage() {
     email: "NA"
   };
 
+  const [answers, setAnswers] = useState({
+    question1: '',
+    question2: '',
+    question3: '',
+    question4: '',
+    question5: ''
+  });
+
   const handleSubmit = async (e) => {
 
     // prevent reloading
@@ -42,14 +50,6 @@ export default function RoommatePage() {
     // navigate to results page with data
     navigate('/r-results', { state: { results: data } });
   }
-  
-  const [answers, setAnswers] = useState({
-    question1: '',
-    question2: '',
-    question3: '',
-    question4: '',
-    question5: ''
-  });
 
   const handleChange = (e) => {
     setAnswers({
