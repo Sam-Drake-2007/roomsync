@@ -9,10 +9,11 @@
     "phone_number": "613-555-0101",
     "email": "thomas.u1@example.com",
     "survey_responses": {
-      "What is your ideal Friday night?": "Hackathon addict. I basically live at the library or at my desk. Usually just coding with headphones on.",
-      "How do you handle cleanliness and shared spaces?": "I am very clean in common areas, but my room is a bit chaotic. I do my dishes immediately.",
-      "Do you have any pets, allergies, or dealbreakers?": "No pets. I need absolute silence in the mornings.",
-      "When are you looking to move in?": "September 1st"
+      "Describe your ideal Night in one sentence.": "Locked in at the library with my headphones on, grinding out code for a hackathon.",
+      "What are 'roommate habits' that annoy you?": "People who are loud in the morning when I'm finally trying to sleep.",
+      "Are you an early bird or a night owl? Be specific about your hours.": "Extreme night owl; I'm usually awake until 3 or 4 AM coding.",
+      "How often do you put aside time to clean up your environnment.": "I do my dishes immediately, but my bedroom floor is permanently covered in laundry.",
+      "Do you have any dealbreakers? (Pets, smoking, guests, allergies)": "Morning noise is a dealbreaker; I need silence until at least 11 AM."
     }
   },
   {
@@ -25,10 +26,11 @@
     "phone_number": "613-555-0102",
     "email": "sarah.u2@example.com",
     "survey_responses": {
-      "What is your ideal Friday night?": "I usually work shift work, so often sleeping! When I'm off, I love cooking big dinners for friends.",
-      "How do you handle cleanliness and shared spaces?": "Sterile. I work in a hospital, so germs freak me out. Common areas must be spotless.",
-      "Do you have any pets, allergies, or dealbreakers?": "I have one cat. Allergic to smoke.",
-      "When are you looking to move in?": "May 1st"
+      "Describe your ideal Night in one sentence.": "Cooking a massive dinner for friends on one of my rare nights off.",
+      "What are 'roommate habits' that annoy you?": "Leaving germs or dirty dishes around; I work in a hospital so I need things sterile.",
+      "Are you an early bird or a night owl? Be specific about your hours.": "My shift work makes my schedule erratic, but I value sleep whenever I can get it.",
+      "How often do you put aside time to clean up your environnment.": "Daily; I keep common areas spotless and sanitize surfaces constantly.",
+      "Do you have any dealbreakers? (Pets, smoking, guests, allergies)": "I am severely allergic to smoke, but I come with a cat."
     }
   },
   {
@@ -41,10 +43,11 @@
     "phone_number": "613-555-0103",
     "email": "mike.ross@example.com",
     "survey_responses": {
-      "What is your ideal Friday night?": "Hosting pre-games! I love having people over and watching sports. A quiet house depresses me.",
-      "How do you handle cleanliness and shared spaces?": "I'm chill. I might leave a pizza box out overnight but I'll get to it eventually.",
-      "Do you have any pets, allergies, or dealbreakers?": "No pets. I vape sometimes (balcony only).",
-      "When are you looking to move in?": "September 1st"
+      "Describe your ideal Night in one sentence.": "Hosting a pre-game with the boys and watching the game on a big screen.",
+      "What are 'roommate habits' that annoy you?": "People who are too uptight about a little mess or noise.",
+      "Are you an early bird or a night owl? Be specific about your hours.": "Night owl for sure, usually up late on weekends.",
+      "How often do you put aside time to clean up your environnment.": "I'll get to the pizza boxes eventually, maybe once a week.",
+      "Do you have any dealbreakers? (Pets, smoking, guests, allergies)": "No pets, but I do vape (only on the balcony)."
     }
   },
   {
@@ -57,10 +60,11 @@
     "phone_number": "613-555-0104",
     "email": "emily.u4@example.com",
     "survey_responses": {
-      "What is your ideal Friday night?": "Reading case law with a glass of wine. I study 12 hours a day, so silence is non-negotiable.",
-      "How do you handle cleanliness and shared spaces?": "Extremely organized. Everything has a label. Clutter stresses me out.",
-      "Do you have any pets, allergies, or dealbreakers?": "Severely allergic to dogs. Cannot live with partiers.",
-      "When are you looking to move in?": "August 1st"
+      "Describe your ideal Night in one sentence.": "Reading complex case law in total silence with a glass of red wine.",
+      "What are 'roommate habits' that annoy you?": "Clutter, disorganization, and loud parties.",
+      "Are you an early bird or a night owl? Be specific about your hours.": "I study 12 hours a day, so I'm up early and work late, but I need quiet hours.",
+      "How often do you put aside time to clean up your environnment.": "Constantly; everything I own is labeled and organized.",
+      "Do you have any dealbreakers? (Pets, smoking, guests, allergies)": "Severe dog allergy and I absolutely cannot live with partiers."
     }
   },
   {
@@ -73,10 +77,11 @@
     "phone_number": "613-555-0105",
     "email": "david.u5@example.com",
     "survey_responses": {
-      "What is your ideal Friday night?": "Jamming with friends or going to a local gig. I play cello daily.",
-      "How do you handle cleanliness and shared spaces?": "Average. I'm happy as long as there is no mold in the sink.",
-      "Do you have any pets, allergies, or dealbreakers?": "No allergies. I need roommates who don't mind instrument practice during the day.",
-      "When are you looking to move in?": "September 1st"
+      "Describe your ideal Night in one sentence.": "Jamming with my friends or heading out to catch a local gig.",
+      "What are 'roommate habits' that annoy you?": "People who complain about hearing music practice during the day.",
+      "Are you an early bird or a night owl? Be specific about your hours.": "Flexible, but I practice cello daily during waking hours.",
+      "How often do you put aside time to clean up your environnment.": "Average; I'm not a neat freak as long as there's no mold.",
+      "Do you have any dealbreakers? (Pets, smoking, guests, allergies)": "You must be okay with hearing instruments practiced in the house."
     }
   },
   {
@@ -89,10 +94,11 @@
     "phone_number": "613-555-0106",
     "email": "priya.u6@example.com",
     "survey_responses": {
-      "What is your ideal Friday night?": "Doing yoga and watering my 20 plants. Maybe watching a documentary.",
-      "How do you handle cleanliness and shared spaces?": "I like a clean floor for yoga. I prefer a shoes-off household.",
-      "Do you have any pets, allergies, or dealbreakers?": "Vegetarian household preferred. The smell of cooking meat bothers me.",
-      "When are you looking to move in?": "Immediate"
+      "Describe your ideal Night in one sentence.": "Watering my 20 plants and settling in for a documentary.",
+      "What are 'roommate habits' that annoy you?": "Wearing shoes inside the house or leaving the floor dirty (I need it clean for yoga).",
+      "Are you an early bird or a night owl? Be specific about your hours.": "Early riser for morning yoga sessions.",
+      "How often do you put aside time to clean up your environnment.": "Daily light cleaning to keep the energy and floors clear.",
+      "Do you have any dealbreakers? (Pets, smoking, guests, allergies)": "I prefer a vegetarian household; the smell of cooking meat bothers me."
     }
   },
   {
@@ -105,10 +111,11 @@
     "phone_number": "613-555-0107",
     "email": "kevin.u7@example.com",
     "survey_responses": {
-      "What is your ideal Friday night?": "Gym, then meal prep for the week, then sleep early. I'm very routine-oriented.",
-      "How do you handle cleanliness and shared spaces?": "I clean up after myself immediately. I expect others to do the same.",
-      "Do you have any pets, allergies, or dealbreakers?": "No pets. I hate late-night noise.",
-      "When are you looking to move in?": "May 1st"
+      "Describe your ideal Night in one sentence.": "Hitting the gym, meal prepping for the week, and sleeping early.",
+      "What are 'roommate habits' that annoy you?": "Laziness and leaving messes for others to clean up.",
+      "Are you an early bird or a night owl? Be specific about your hours.": "Strict early bird; I stick to a routine.",
+      "How often do you put aside time to clean up your environnment.": "Immediately; I clean up the second I am done using something.",
+      "Do you have any dealbreakers? (Pets, smoking, guests, allergies)": "Late-night noise disrupts my schedule."
     }
   },
   {
@@ -121,10 +128,11 @@
     "phone_number": "613-555-0108",
     "email": "jessica.u8@example.com",
     "survey_responses": {
-      "What is your ideal Friday night?": "Gallery hopping or painting in the living room. I love chatting with roommates till 2 AM.",
-      "How do you handle cleanliness and shared spaces?": "Creative chaos. I try to contain my paint, but I'm not a neat freak.",
-      "Do you have any pets, allergies, or dealbreakers?": "I love all animals! No dealbreakers really, just be friendly.",
-      "When are you looking to move in?": "September 1st"
+      "Describe your ideal Night in one sentence.": "Painting in the living room and chatting with roommates until late.",
+      "What are 'roommate habits' that annoy you?": "People who are anti-social or overly strict about tidiness.",
+      "Are you an early bird or a night owl? Be specific about your hours.": "Night owl; I'm often up until 2 AM working on art.",
+      "How often do you put aside time to clean up your environnment.": "Rarely; I try to contain the paint, but I embrace creative chaos.",
+      "Do you have any dealbreakers? (Pets, smoking, guests, allergies)": "No dealbreakers, I love all animals and people!"
     }
   },
   {
@@ -137,10 +145,11 @@
     "phone_number": "613-555-0109",
     "email": "ahmed.u9@example.com",
     "survey_responses": {
-      "What is your ideal Friday night?": "Drinking tea and working on my thesis. I value deep conversation but mostly keep to myself.",
-      "How do you handle cleanliness and shared spaces?": "Very tidy. I respect shared property and expect the same.",
-      "Do you have any pets, allergies, or dealbreakers?": "No pets. Halal kitchen preferred (no pork/alcohol in shared fridge if possible).",
-      "When are you looking to move in?": "July 1st"
+      "Describe your ideal Night in one sentence.": "Drinking tea and making progress on my thesis in a quiet environment.",
+      "What are 'roommate habits' that annoy you?": "Disrespecting personal property or shared spaces.",
+      "Are you an early bird or a night owl? Be specific about your hours.": "I keep regular, quiet hours focused on my studies.",
+      "How often do you put aside time to clean up your environnment.": "Very often; I am extremely tidy and respectful.",
+      "Do you have any dealbreakers? (Pets, smoking, guests, allergies)": "Halal kitchen preferred (please no pork or alcohol in the shared fridge)."
     }
   },
   {
@@ -153,10 +162,11 @@
     "phone_number": "613-555-0110",
     "email": "brad.u10@example.com",
     "survey_responses": {
-      "What is your ideal Friday night?": "Recovering from rugby practice. Watching a movie. Maybe a beer or two.",
-      "How do you handle cleanliness and shared spaces?": "I have a lot of sports gear, so the hallway might have my bag. I'm not dirty, just cluttered.",
-      "Do you have any pets, allergies, or dealbreakers?": "None. I'm up at 5 AM though, so don't be mad if you hear the blender.",
-      "When are you looking to move in?": "September 1st"
+      "Describe your ideal Night in one sentence.": "Recovering from rugby practice with a movie and maybe a beer.",
+      "What are 'roommate habits' that annoy you?": "People who get mad about noise in the morning.",
+      "Are you an early bird or a night owl? Be specific about your hours.": "Early bird; I'm up at 5 AM using the blender for my shake.",
+      "How often do you put aside time to clean up your environnment.": "Not often; I tend to leave my sports gear in the hallway.",
+      "Do you have any dealbreakers? (Pets, smoking, guests, allergies)": "None really, as long as you can handle my early mornings."
     }
   },
   {
@@ -169,10 +179,11 @@
     "phone_number": "613-555-0111",
     "email": "sophie.u11@example.com",
     "survey_responses": {
-      "What is your ideal Friday night?": "Networking event or wine night with colleagues. I'm rarely home on weekends.",
-      "How do you handle cleanliness and shared spaces?": "Professional standard. I sometimes host meetings, so the living room must be presentable.",
-      "Do you have any pets, allergies, or dealbreakers?": "No smoking inside. Cannot deal with weed smell.",
-      "When are you looking to move in?": "June 1st"
+      "Describe your ideal Night in one sentence.": "Attending a networking event or hosting a wine night for colleagues.",
+      "What are 'roommate habits' that annoy you?": "Unprofessionalism and the smell of weed.",
+      "Are you an early bird or a night owl? Be specific about your hours.": "I keep a busy professional schedule, rarely home on weekends.",
+      "How often do you put aside time to clean up your environnment.": "Always; the apartment must be presentable for hosting meetings.",
+      "Do you have any dealbreakers? (Pets, smoking, guests, allergies)": "Absolutely no smoking or weed smell inside."
     }
   },
   {
@@ -185,10 +196,11 @@
     "phone_number": "613-555-0112",
     "email": "liam.u12@example.com",
     "survey_responses": {
-      "What is your ideal Friday night?": "Streaming on Twitch until 4 AM. I have a mechanical keyboard (sorry).",
-      "How do you handle cleanliness and shared spaces?": "My desk is a mess, but I keep the kitchen okay. I order UberEats a lot.",
-      "Do you have any pets, allergies, or dealbreakers?": "No pets. Need high-speed ethernet access.",
-      "When are you looking to move in?": "Immediate"
+      "Describe your ideal Night in one sentence.": "Streaming on Twitch with my mechanical keyboard until the sun comes up.",
+      "What are 'roommate habits' that annoy you?": "Slow internet and people complaining about my keyboard clicking.",
+      "Are you an early bird or a night owl? Be specific about your hours.": "Night owl; I am usually awake and gaming until 4 AM.",
+      "How often do you put aside time to clean up your environnment.": "My desk is a disaster zone, but I keep the kitchen usable.",
+      "Do you have any dealbreakers? (Pets, smoking, guests, allergies)": "I need high-speed ethernet access."
     }
   },
   {
@@ -201,10 +213,11 @@
     "phone_number": "613-555-0113",
     "email": "olivia.u13@example.com",
     "survey_responses": {
-      "What is your ideal Friday night?": "Taking my Golden Retriever (Buster) for a long walk and then baking cookies.",
-      "How do you handle cleanliness and shared spaces?": "There will be dog hair. I vacuum twice a week to manage it.",
-      "Do you have any pets, allergies, or dealbreakers?": "Must love dogs. I have a large dog crate in the living room.",
-      "When are you looking to move in?": "September 1st"
+      "Describe your ideal Night in one sentence.": "Taking my Golden Retriever, Buster, for a long walk and baking cookies.",
+      "What are 'roommate habits' that annoy you?": "People who dislike animals.",
+      "Are you an early bird or a night owl? Be specific about your hours.": "I follow Buster's schedule, so mostly early mornings.",
+      "How often do you put aside time to clean up your environnment.": "I vacuum twice a week specifically to manage the dog hair.",
+      "Do you have any dealbreakers? (Pets, smoking, guests, allergies)": "You must love dogs; there is a large crate in the living room."
     }
   },
   {
@@ -217,10 +230,11 @@
     "phone_number": "613-555-0114",
     "email": "wei.u14@example.com",
     "survey_responses": {
-      "What is your ideal Friday night?": "Cooking a large traditional meal and skyping family back home.",
-      "How do you handle cleanliness and shared spaces?": "I cook every day, so the kitchen is busy, but I scrub it down after every meal.",
-      "Do you have any pets, allergies, or dealbreakers?": "No pets. Shoes off at the door is a must.",
-      "When are you looking to move in?": "August 15th"
+      "Describe your ideal Night in one sentence.": "Cooking a large traditional meal and Skyping my family back home.",
+      "What are 'roommate habits' that annoy you?": "Wearing shoes inside and leaving a dirty kitchen.",
+      "Are you an early bird or a night owl? Be specific about your hours.": "Moderate hours, usually cooking in the evenings.",
+      "How often do you put aside time to clean up your environnment.": "I scrub the kitchen down thoroughly after every single meal.",
+      "Do you have any dealbreakers? (Pets, smoking, guests, allergies)": "Shoes off at the door is a hard rule."
     }
   },
   {
@@ -233,10 +247,11 @@
     "phone_number": "613-555-0115",
     "email": "jordan.u15@example.com",
     "survey_responses": {
-      "What is your ideal Friday night?": "Editing photos or listening to podcasts. I like a chill, indie vibe.",
-      "How do you handle cleanliness and shared spaces?": "Minimalist. I don't own much stuff, so I keep things tidy naturally.",
-      "Do you have any pets, allergies, or dealbreakers?": "Vegan household preferred. Strong chemical smells (bleach) give me headaches.",
-      "When are you looking to move in?": "September 1st"
+      "Describe your ideal Night in one sentence.": "Editing photos or listening to indie podcasts in a chill environment.",
+      "What are 'roommate habits' that annoy you?": "Strong chemical smells like bleach.",
+      "Are you an early bird or a night owl? Be specific about your hours.": "Flexible, just looking for a chill vibe.",
+      "How often do you put aside time to clean up your environnment.": "I'm a minimalist so I stay tidy naturally, but I don't use harsh cleaners.",
+      "Do you have any dealbreakers? (Pets, smoking, guests, allergies)": "Vegan household preferred; strong chemical smells give me headaches."
     }
   }
 ]
