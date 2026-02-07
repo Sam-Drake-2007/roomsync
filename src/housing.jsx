@@ -20,6 +20,8 @@ export default function HousingPage() {
     preferences: ''
   });
 
+  const isFormValid = Object.values(formData).every(answer => answer.trim() !== '');
+
   const handleChange = (e) => {
     setFormData({
       ...formData,
@@ -135,7 +137,14 @@ export default function HousingPage() {
           </div>
 
           <div className="buttonbox">
-            <button className="button" onClick={handleSubmit}>Find Best Match</button>
+            <button 
+              className="button" 
+              onClick={handleSubmit}
+              disabled={!isFormValid}
+              style={{ opacity: isFormValid ? 1 : 0.5, cursor: isFormValid ? 'pointer' : 'not-allowed' }}
+            >
+              Find Best Match
+            </button>
           </div>
 
           <div className="homebox">

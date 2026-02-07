@@ -92,13 +92,16 @@ async def match_roommates(request: RoommateRequest):
     Sends the Current User + The Entire User DB to Gemini.
     Gemini picks the best roomate fit.
     """
-    
+    formatted_qa = "\n".join([
+    f"Question: {q}\nAnswer: {a}" 
+    for q, a in zip(request.answers.questions, request.answers.answers)
+])
     # model_dump_json() converts the pydantic json to a strnig to we can easily show gemini what we're dealing with
     # json.dumps does the same thing except works for something that isnt a pydantic model (like our USERS_DB which is a list of dicts)
     prompt = f"""
     I am looking for a roommate.
     My Profile: {request.current_user.model_dump_json()}
-    My Survey Answers: {request.answers.model_dump_json()}
+    My Survey Answers: {formatted_qa}
 
     Here is the database of potential roommates:
     {json.dumps(USERS_DB)}
@@ -127,11 +130,15 @@ async def match_listings(request: HousingRequest):
     Sends the Current User + The Entire Listings DB to Gemini.
     Gemini picks the best appartment fit and analyzes the listing for scam markers.
     """
-    
+
+    formatted_qa = "\n".join([
+    f"Question: {q}\nAnswer: {a}" 
+    for q, a in zip(request.answers.questions, request.answers.answers)
+])
     prompt = f"""
     I am looking for housing.
     My Profile: {request.current_user.model_dump_json()} 
-    My Survey Answers: {request.answers.model_dump_json()}
+    My Survey Answers: {formatted_qa}
 
     Here is the database of listings:
     {json.dumps(LISTINGS_DB)}
@@ -143,7 +150,7 @@ async def match_listings(request: HousingRequest):
     """
 
     response = client.models.generate_content(
-        model="gemini-2.5-flash-lite",
+        model="gemini-3.0-flash",
         contents=prompt,
         config={
             "response_mime_type": "application/json",

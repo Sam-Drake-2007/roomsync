@@ -19,6 +19,8 @@ export default function RoommatePage() {
     question5: ''
   });
 
+  const isFormValid = Object.values(answers).every(answer => answer.trim() !== '');
+
   const handleSubmit = async (e) => {
 
     // prevent reloading
@@ -46,6 +48,7 @@ export default function RoommatePage() {
     });
 
     const data = await response.json();
+
 
     // navigate to results page with data
     navigate('/r-results', { state: { results: data } });
@@ -89,7 +92,14 @@ export default function RoommatePage() {
           </div>
 
           <div className="buttonbox">
-            <button to="/r-results" className="button" onClick={handleSubmit}>Find Best Match</button>
+            <button 
+              className="button" 
+              onClick={handleSubmit}
+              disabled={!isFormValid}
+              style={{ opacity: isFormValid ? 1 : 0.5, cursor: isFormValid ? 'pointer' : 'not-allowed' }}
+            >
+              Find Best Match
+            </button>
           </div>
 
           <div className="homebox">
